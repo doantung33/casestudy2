@@ -53,7 +53,7 @@ public class Main {
                     ioSpending.editBorrower();
                     break;
                 case 7:
-                    ioSpending.editItem();
+                    ioSpending.deleteItem();
                     break;
                 case 8:
                     ioSpending.deleteLoan();

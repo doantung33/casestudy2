@@ -259,7 +259,7 @@ public class IoSpending  {
                 check=true;
 //                arrayList.get(i).setTotalMoney(editUSD);
                 arrayList.get(i).setDay(editDay);
-                arrayList.get(i).setSpending(editDay);
+                arrayList.get(i).setSpending(editItem);
                 arrayList.get(i).setPrice(editPrice);
                 break;
             }
