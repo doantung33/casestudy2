@@ -248,8 +248,8 @@ public class IoSpending  {
         int size = arrayList.size();
         for (int i = 0; i < size; i++) {
             if (item.equals(arrayList.get(i).getSpending())){
-                System.out.println("Enter USD");
-                double editUSD = Double.parseDouble(scanner.nextLine());
+//                System.out.println("Enter USD");
+//                double editUSD = Double.parseDouble(scanner.nextLine());
                 System.out.println("Enter day");
                 String editDay= scanner.nextLine();
                 System.out.println("Enter item");
