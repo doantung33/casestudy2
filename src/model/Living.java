@@ -65,11 +65,11 @@ public class Living implements Serializable {
 
     @Override
     public String toString() {
-        return "Living{" +
+        return "Living [ " +
 //                "money='" + totalMoney + " USD"+'\'' +
                 " day='" + day + '\'' +
                 ", spending='" + spending + '\'' +
                 ", price='" + price +" USD"+ '\'' +
-                '}';
+                " ]";
     }
 }

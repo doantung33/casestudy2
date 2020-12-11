@@ -84,7 +84,7 @@ public class Borrower implements Serializable {
 
     @Override
     public String toString() {
-        return "Borrower{" +
+        return "Borrower [ " +
                 "name='" + name + '\'' +
                 ", age='" + age + '\'' +
                 ", phone='" + phone + '\'' +
@@ -92,6 +92,6 @@ public class Borrower implements Serializable {
                 ", loan='" + loan + " USD"+'\'' +
                 ", loanDay='" + loanDay + '\'' +
                 ", payDay='" + payDay + '\'' +
-                '}';
+                " ]";
     }
 }
