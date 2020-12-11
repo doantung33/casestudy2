@@ -218,7 +218,7 @@ public class IoSpending  {
         }
         if (living != null) {
             System.out.println(" Speand is deleted:  " + living.getSpending());
-            arrayList1.remove(living);
+            arrayList.remove(living);
         } else {
             System.out.println(" Spending dose not exist ");
         }
