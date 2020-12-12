@@ -63,6 +63,15 @@ public class Main {
                     break;
                 case 10:
                     ioSpending.searchBorrower();
+                case 11:
+                    ioSpending.addMoney();
+                    break;
+                case 12:
+                    ioSpending.editMoney();
+                    break;
+                case 13:
+                    ioSpending.showMoney();
+                    break;
 //                case 11:
 //                    IoFile.dataLiving();
 //                    break;
