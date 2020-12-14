@@ -60,6 +60,7 @@ public class IoSpending  {
 
 
     public void addSpending() {
+        double totalMoney =0;
         Living living = new Living();
 //        while (true)
 //        try {
@@ -109,6 +110,10 @@ public class IoSpending  {
         try {
             System.out.println("Enter the amount spen");
             double price = Double.parseDouble(scanner.nextLine());
+            if (totalMoney==price){
+                totalMoney+=price;
+                System.out.println("tổng tiền là: "+ totalMoney);
+            }
             living.setPrice(price);
             break;
         }catch (NumberFormatException e){
@@ -232,6 +237,9 @@ public class IoSpending  {
         for (Living living : arrayList) {
             if (living instanceof Living) {
                 System.out.println(living.toString());
+                System.out.println(living.getTotalMoney());
+
+
             }
         }
     }
@@ -489,7 +497,5 @@ public class IoSpending  {
         if (!check){
             System.out.println("No borrower name");
         }
-
-
     }
 }
